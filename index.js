@@ -142,4 +142,4 @@ if (interaction.customId === "fechar_ticket") {
 
 });
 
-client.login(config.token);
+client.login(process.env.TOKEN);
